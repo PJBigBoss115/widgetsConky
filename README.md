@@ -4,6 +4,8 @@
 
 1. [Clima](#Como-funciona-la-parte-del-clima)
 2. [Reproductor](#Reproductor)
+3. [Pre-views](#Widgets-subidos)
+4. [Recomendaciones](#Recomendaciones)
 
 
 Los widgets para Conky son elementos gráficos personalizables que muestran información del sistema en tu 
@@ -153,3 +155,16 @@ sudo dnf install playerctl
 ```
 
 ### Widgets subidos
+1. Mimosa-Dark-PlyrctlC-v3.0
+![image](https://github.com/user-attachments/assets/3cc47956-1f10-4b85-af2d-ea207c9968b8)
+
+2. Mirach-Clcs-v2.1
+![image](https://github.com/user-attachments/assets/2659c795-4290-46ab-bcea-70ff6a904b62)
+
+3. Sirius-PlyrctlC-v3.1 / Sirius-MpdC-v3.1
+![image](https://github.com/user-attachments/assets/99450a91-9d65-4b34-9d4c-eb246efc670d)
+
+### Recomendaciones
+¡Es súper fácil! 😎 Solo agarra una carpeta e impórtala en Conky Manager, ¡y listo, ya está todo preparado para usar! 🚀 Si algo no funciona como debería, no te preocupes, solo revisa las rutas — deben estar exactamente iguales. También subo algunos wallpapers que uso con los temas, pero siéntete libre de modificarlos a tu gusto para que hagan juego con cualquier fondo que prefieras. 🎨🖼️ ¡Solo es cuestión de darle tu toque personal! ✨
+
+
