@@ -133,3 +133,23 @@ el volumen, todo desde la terminal.
 
 Por lo cual si no funcona de manera nativa deberias usar playerctl el cual uso en el tema Sirius-Mpdc-v3.1 y deberia funconar
 con los reproductores de tu navegador siendo chome o firefox.
+
+Instalación de Playerctl:
+Dependiendo de tu distribución de Linux, puedes instalarlo de la siguiente manera:
+
+En Ubuntu y derivados:
+```bash
+sudo apt install playerctl
+```
+
+En Arch Linux y derivados:
+```bash
+sudo pacman -S playerctl
+```
+
+En Fedora:
+```bash
+sudo dnf install playerctl
+```
+
+### Widgets subidos
