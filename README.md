@@ -84,3 +84,34 @@ Font Awesome (opcional): Muchos temas de Conky utilizan iconos de Font Awesome.
 ```bash
 sudo apt install fonts-font-awesome
 ```
+
+## Como funciona la parte del clima
+Es mejor que consigas tu clave en [OpenWeather](https://openweathermap.org/) asi solo colocas el city_id y tu api_key
+sera mas sencillo de esta forma.
+
+```bash
+#!/bin/bash
+
+# v2.0 Closebox73
+# This script is to get weather data from openweathermap.com in the form of a json file
+# so that conky will still display the weather when offline even though it doesn't up to date
+
+# Variables
+# Esta es tu clave del lugar donde te encuentras (consulta tu api para saber la tuya)
+city_id=
+
+# Esta es tu clave que te proporciona la api
+api_key=
+
+# Esta es la unidad de mediad
+unit=metric
+
+# Este es el idioma en el que te trae la información
+lang=es
+
+# Aquí coloca tu url donde ira a traer la información, precisamente es de donde obtuviste tu código
+url="api.openweathermap.org/data/2.5/weather?id=${city_id}&appid=${api_key}&cnt=5&units=${unit}&lang=${lang}"
+curl ${url} -s -o ~/.cache/weather.json
+
+exit
+```
