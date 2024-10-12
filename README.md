@@ -1,5 +1,11 @@
 # Widgets para Conky
 
+## Tabla de Contenidos
+
+1. [Clima](#Como-funciona-la-parte-del-clima)
+2. [Reproductor](#Reproductor)
+
+
 Los widgets para Conky son elementos gráficos personalizables que muestran información del sistema en tu 
 escritorio de Linux 🖥️, como el uso de CPU, RAM, espacio en disco, temperatura, clima ☁️, entre otros. Conky 
 es una herramienta súper versátil y liviana que te permite crear y personalizar estos widgets con scripts 
@@ -115,3 +121,15 @@ curl ${url} -s -o ~/.cache/weather.json
 
 exit
 ```
+
+## Reproductor
+Hay dos formas por ahora una es de la manera tradicional con conky por lo cual no tendrias porblema y deberia funcionar por si solo,
+otra es con playerctl.
+
+Playerctl es una herramienta de línea de comandos que te permite controlar reproductores multimedia compatibles con MPRIS 
+(Media Player Remote Interfacing Specification) en Linux. Con Playerctl, puedes interactuar con reproductores multimedia 
+como Spotify, VLC, Rhythmbox, mpv, y otros, para realizar acciones como reproducir, pausar, saltar canciones, y controlar 
+el volumen, todo desde la terminal.
+
+Por lo cual si no funcona de manera nativa deberias usar playerctl el cual uso en el tema Sirius-Mpdc-v3.1 y deberia funconar
+con los reproductores de tu navegador siendo chome o firefox.
