@@ -1,0 +1,23 @@
+#!/bin/bash
+
+# Script to display Day as Dot
+# Closebox73
+
+# Set locale to ensure date command returns English day names
+DATE=$(LC_TIME=en_US.UTF-8 date +"%a")
+
+# Array of dot representations
+declare -A dots=(
+    ["Mon"]="      "
+    ["Tue"]="      "
+    ["Wed"]="      "
+    ["Thu"]="      "
+    ["Fri"]="      "
+    ["Sat"]="      "
+    ["Sun"]="      "
+)
+
+# Print the corresponding dot representation
+echo "${dots[$DATE]:-"There are other days??"}"
+
+exit 0
