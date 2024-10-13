@@ -6,6 +6,7 @@
 2. [Reproductor](#Reproductor)
 3. [Pre-views](#Widgets-subidos)
 4. [Recomendaciones](#Recomendaciones)
+5. [Monitor de red](#Monitor-de-red)
 
 
 Los widgets para Conky son elementos gráficos personalizables que muestran información del sistema en tu 
@@ -153,6 +154,26 @@ En Fedora:
 ```bash
 sudo dnf install playerctl
 ```
+
+## Monitor de red
+Para monitorear tu red, primero necesitas identificar la interfaz de red que está conectada, 
+ya sea a través de Wi-Fi o por cable. Busca en la sección correspondiente del archivo principal 
+donde se menciona `wlo1`, que es la interfaz en mi caso. Para conocer tu propia interfaz, 
+simplemente ejecuta un comando en la terminal.
+
+- Usando ip (comando recomendado)
+  
+El comando ip es parte del paquete iproute2 y está disponible en casi todas las distribuciones modernas de Linux.
+
+```bash
+ip addr
+```
+o
+
+```bash
+ip link show
+```
+Este comando te mostrará una lista de todas las interfaces de red junto con su estado y direcciones IP asignadas.
 
 ### Widgets subidos
 1. Mimosa-Dark-PlyrctlC-v3.0
