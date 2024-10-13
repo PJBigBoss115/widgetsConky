@@ -188,4 +188,6 @@ Este comando te mostrará una lista de todas las interfaces de red junto con su 
 ### Recomendaciones
 ¡Es súper fácil! 😎 Solo agarra una carpeta e impórtala en Conky Manager, ¡y listo, ya está todo preparado para usar! 🚀 Si algo no funciona como debería, no te preocupes, solo revisa las rutas — deben estar exactamente iguales. También subo algunos wallpapers que uso con los temas, pero siéntete libre de modificarlos a tu gusto para que hagan juego con cualquier fondo que prefieras. 🎨🖼️ ¡Solo es cuestión de darle tu toque personal! ✨
 
+Psst: Todos los ejecutables de cada una de las secciones de los widgets están en la carpeta raíz del widget y luego /scripts.
+
 
