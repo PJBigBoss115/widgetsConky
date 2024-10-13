@@ -4,8 +4,8 @@
 
 1. [Clima](#Como-funciona-la-parte-del-clima)
 2. [Reproductor](#Reproductor)
-3. [Pre-views](#Widgets-subidos)
-4. [Monitor de red](#Monitor-de-red)
+3. [Monitor de red](#Monitor-de-red)
+4. [Pre-views](#Widgets-subidos)
 5. [Recomendaciones](#Recomendaciones)
 
 
