@@ -5,8 +5,8 @@
 1. [Clima](#Como-funciona-la-parte-del-clima)
 2. [Reproductor](#Reproductor)
 3. [Pre-views](#Widgets-subidos)
-4. [Recomendaciones](#Recomendaciones)
-5. [Monitor de red](#Monitor-de-red)
+4. [Monitor de red](#Monitor-de-red)
+5. [Recomendaciones](#Recomendaciones)
 
 
 Los widgets para Conky son elementos gráficos personalizables que muestran información del sistema en tu 
